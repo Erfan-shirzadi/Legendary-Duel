@@ -16,7 +16,14 @@ void Hero::SetName(std::string name){
 }
 void Hero::SetHP(int hp){
    this->Hp=hp;
+   this->MaxHp=hp;
+
 }
+
+void Hero::SetMove(int move){
+   this->Move=move;
+}
+
 void Hero::SetRange(int range){
    this->Range=range;
 }

@@ -21,6 +21,7 @@ class Hero {
     void SetName(std::string);
     void SetHP(int );
     void SetRange(int);
+    void SetMove(int);
     int GetHP()const;
     std::string GetName()const;
     int GetMove()const;
