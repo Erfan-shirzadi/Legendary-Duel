@@ -5,7 +5,7 @@
 class ManeverUseCase{
 
     public:
-    void execute(Hero & ,int newnode);
+    void execute(Hero & ,int newnode,std::vector<int> reachableNodes);
     std::vector<int> reachableNodesCurrentHero(Graph map,Hero hero,int Enemynode)const;
 };
 

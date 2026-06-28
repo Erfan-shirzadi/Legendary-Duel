@@ -11,6 +11,7 @@ set(
     ./main.cpp
     src/Domain/Entities/Hero.cpp
     src/Domain/Entities/Graph.cpp
+    src/Application/UseCases/ManeverUseCase.cpp
 
 )
 

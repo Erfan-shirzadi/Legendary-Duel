@@ -2,8 +2,12 @@
 #include  <vector>
 #include <unordered_map>
 #include <queue>
-#include <iostream>
-void ManeverUseCase::execute(Hero & hero,int newnode){   
+void ManeverUseCase::execute(Hero & hero,int newnode,std::vector<int> reachableNodes){   
+        bool ReachableNodetarget=false;
+        for(int nodes:reachableNodes)
+            if(newnode==nodes) ReachableNodetarget=true;
+
+        if(ReachableNodetarget)hero.SetNode(newnode);
 
 }
 
@@ -41,5 +45,5 @@ std::vector<int> ManeverUseCase::reachableNodesCurrentHero(Graph map,Hero hero,i
         level++;
     }
 
-
+    return res;
 }
