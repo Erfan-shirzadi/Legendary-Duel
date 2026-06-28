@@ -25,6 +25,11 @@ class Hero {
     int GetHP()const;
     std::string GetName()const;
     int GetMove()const;
+
+    void SetNode(int);
+    int GetNode()const;
+    
+
     void TakeDamge(int damage);
     void Heal(int heal);
     bool IsAlive()const;

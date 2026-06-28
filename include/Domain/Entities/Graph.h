@@ -10,6 +10,8 @@ class Graph{
     public:    
     Graph();
     void SetNodes();
+    Node GetNode(int)const;
+    std::vector<int> GetNeighbors(int node)const;
 
 };
 

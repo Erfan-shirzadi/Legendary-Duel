@@ -29,6 +29,16 @@ void Hero::SetRange(int range){
 }
 
 
+
+void Hero::SetNode(int newNode){
+   this->node=newNode;
+}
+
+int Hero::GetNode()const{
+   return this->node;
+}
+    
+
 void Hero::TakeDamge(int damage){
    this->Hp-=damage;
    if(Hp<0)

@@ -1,9 +1,9 @@
 #ifndef CARD_H
 #define CARD_H
 #include <string>
-#include "enums/HeroType.h"
-#include "enums/CardCategory.h"
-#include "enums/PlayTiming.h"
+#include "Domain/enums/HeroType.h"
+#include "Domain/enums/CardCategory.h"
+#include "Domain/enums/PlayTiming.h"
 
 class Card{
 
