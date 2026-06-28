@@ -16,11 +16,28 @@ void Hero::SetName(std::string name){
 }
 void Hero::SetHP(int hp){
    this->Hp=hp;
+   this->MaxHp=hp;
+
 }
+
+void Hero::SetMove(int move){
+   this->Move=move;
+}
+
 void Hero::SetRange(int range){
    this->Range=range;
 }
 
+
+
+void Hero::SetNode(int newNode){
+   this->node=newNode;
+}
+
+int Hero::GetNode()const{
+   return this->node;
+}
+    
 
 void Hero::TakeDamge(int damage){
    this->Hp-=damage;

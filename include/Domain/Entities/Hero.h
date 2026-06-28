@@ -21,9 +21,15 @@ class Hero {
     void SetName(std::string);
     void SetHP(int );
     void SetRange(int);
+    void SetMove(int);
     int GetHP()const;
     std::string GetName()const;
     int GetMove()const;
+
+    void SetNode(int);
+    int GetNode()const;
+    
+
     void TakeDamge(int damage);
     void Heal(int heal);
     bool IsAlive()const;
